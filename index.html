@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -140,4 +140,145 @@
   <footer>    
 <p>created by: Victor Hoang</p>
   </footer>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Html110 Assignment 1</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<style>
+	   .accordion {
+	     background-color: #eee;
+	     color: #444;
+	     cursor: pointer;
+	     padding: 18px;
+	     width: 100%;
+	     border: none;
+	     text-align: left;
+	     outline: none;
+	     font-size: 15px;
+	     transition: 0.4s;
+	   }
+
+	   .active, .accordion:hover {
+	     background-color: #ccc;
+	   }
+
+	   .panel {
+	     padding: 0 18px;
+	     display: none;
+	     background-color: white;
+	     overflow: hidden;
+	   }
+	</style>
+</head>
+<body>
+	<h1>HTML110 Assignment 1</h1>
+	<hr>
+	<button class="accordion">Task 1: Read the following Articles</button>
+	<div class="panel">
+		<h2>Task 1: Read the following Articles</h2><a href="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">Overview of Html5 semantics</a><br>
+		<a href="https://www.w3schools.com/html/html5_semantic_elements.asp">html5 semantic elements</a><br>
+		<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">List of possible html elements</a>
+		<ul>
+			<li>
+				<p style="color:green;">Complete!</p>
+			</li>
+		</ul>
+	</div><button class="accordion">Task 2: Write one paragraph summarizing what semantic elements are (max of 150 words)</button>
+	<div class="panel">
+		<h3>Task 2: Write one paragraph summarizing what semantic elements are (max of 150 words)</h3>
+		<ul>
+			<li style="list-style: none; display: inline">
+				<p>Semantic elements are used as a basic building block for HTML. It is an element that clearly describes its function to both the end user and the browser.<br>
+          For example: uses for a semantic element can be used to describe the layout of a page. Common ones popularized by the HTML5 WG include: &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, and &lt;section&gt; tags that describe the location description of the content embedded within it!<br>
+          A header element can be used to describe an author at the top of the page, logo, icons, or even date edited.
+          A footer element can be used to describe copyright information, links back to the top, related documents/pages, or contact information.<br>
+          There are many other semantic elements that can be used and found <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">here</a>!<br>
+        </p>
+        <p>125 words</p>
+			</li>
+		</ul>
+	</div><button class="accordion">Task 3: Create a new git repository on your computer. Name it semantic-elements.</button>
+	<div class="panel">
+		<h4>Task 3: Create a new git repository on your computer. Name it semantic-elements.</h4>
+		<ul>
+			<li>
+				<p style="color:green;">Complete!</p>
+			</li>
+		</ul>
+	</div><button class="accordion">Task 4: Create a new git repository on your computer. Name it semantic-elements.</button>
+	<div class="panel">
+		<h5>Task 4: Inside the repo, code an HTML document. Name it index.html.</h5>
+		<ul>
+			<li>
+				<p style="color:green;">Complete!</p>
+			</li>
+		</ul>
+	</div><button class="accordion">Task 5: Use at least 15 different types of HTML elements (correctly!) We didn't cover 15 elements in the lesson. You'll need to use some information from the articles.</button>
+	<div class="panel">
+		<h6>Task 5: Use at least 15 different types of HTML elements (correctly!) We didn't cover 15 elements in the lesson. You'll need to use some information from the articles.</h6>
+		<ol>
+			<li>&lt;html&gt;</li>
+			<li>&lt;head&gt;</li>
+			<li>&lt;title&gt;</li>
+			<li>&lt;body&gt;</li>
+			<li>&lt;h1&gt;</li>
+			<li>&lt;h2&gt;</li>
+			<li>&lt;h3&gt;</li>
+			<li>&lt;h4&gt;</li>
+			<li>&lt;h5&gt;</li>
+			<li>&lt;h6&gt;</li>
+			<li>&lt;ul&gt;</li>
+			<li>&lt;ol&gt;</li>
+			<li>&lt;li&gt;</li>
+			<li>&lt;p&gt;</li>
+			<li>&lt;a&gt;</li>
+			<li>&lt;footer&gt;</li>
+			<li>&lt;button&gt;</li>
+		</ol>
+		<ul>
+			<li>
+				<p style="color:green;">Complete!</p>
+			</li>
+		</ul>
+	</div><button class="accordion">Task 6: View your document in a browser to ensure it displays as you expect.</button>
+	<div class="panel">
+		<h2>Task 6: View your document in a browser to ensure it displays as you expect.</h2>
+		<ul>
+			<li>
+				<p style="color:green;">Complete!</p>
+			</li>
+		</ul>
+	</div><button class="accordion">Task 7: Push your code to GitHub as a new repository.</button>
+	<div class="panel">
+		<h2>Task 7: Push your code to GitHub as a new repository.</h2><a href="https://github.com/victorthoang/semantic-elements">here</a>
+		<ul>
+			<li>
+				<p style="color:green;">Complete!</p>
+			</li>
+		</ul>
+	</div>
+	<script>
+	   var acc = document.getElementsByClassName("accordion");
+	   var i;
+
+	   for (i = 0; i < acc.length; i++) {
+	     acc[i].addEventListener("click", function() {
+	       this.classList.toggle("active");
+	       var panel = this.nextElementSibling;
+	       if (panel.style.display === "block") {
+	         panel.style.display = "none";
+	       } else {
+	         panel.style.display = "block";
+	       }
+	     });
+	   }
+	</script>
+	<hr>
+	<footer>
+		<p>created by: Victor Hoang</p>
+	</footer>
+</body>
 </html>
